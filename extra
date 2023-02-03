@@ -48,7 +48,53 @@ React
 which help to build single page application
 using component based structure
 
+Open Source> Anybody can contributes to development
+
+2,284,812
+
+JSON
+> JavaScript Object notation
+> Way to represent the data
+> Key value pair
+[
+    {
+        "name":"Aarti",
+        "city":"Paris"
+    },
+    {
+        "name":"Aditya",
+        "city":"Delhi",
+        "age":23
+    }
+]
+
+////////
+package.json
+////////
+> First file of the application
+> Entry point to app
+> Name, version, description
+> What all packages we require
+> Script (start,stop,build,test)
+
+
+//// Step to generate package.json/////
+* NodejS must be install in laptop
+> open the terminal and go inside the folder
+> npm init
+> Answer all questions
+> type "yes"
+
+/// Step to install Package
+* NodejS must be install in laptop
+> open the terminal and go inside the folder
+> npm install packagename
 
 //video
 React JS @ 8:00 PM (IST) by Mr. Aakash
  Day-1  https://youtu.be/yz742iqKcf4
+ Day-2 https://youtu.be/mIeSdgpS82o
+ For Queries,  Fee Related Only Whatsapp Message 
+SHUBHAM 7337313415
+
+
