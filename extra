@@ -90,11 +90,50 @@ package.json
 > open the terminal and go inside the folder
 > npm install packagename
 
+
+/// Step to generate React App
+# Windows
+* One Time step in new laptop
+> open cmd as adminstrator
+> npm i -g create-react-app
+
+* Every time you need new app
+> open cmd 
+> go inside folder where you want app
+> create-react-app appname
+
+# Mac/Linux
+* One Time step in new laptop
+> open terminal
+> sudo npm i -g create-react-app
+
+* Every time you need new app
+> open terminal 
+> go inside folder where you want app
+> create-react-app appname
+
+# office laptop/short cut
+> open cmd 
+> go inside folder where you want app
+> npx create-react-app appname
+
+// Step to run the react app
+> open cmd 
+> go inside the application
+> npm start
+
+
+react > Main package of the application
+react-dom > Help to render content on the browser
+react-script > Help to compile the application
+
 //video
 React JS @ 8:00 PM (IST) by Mr. Aakash
- Day-1  https://youtu.be/yz742iqKcf4
+ Day-1 https://youtu.be/yz742iqKcf4
  Day-2 https://youtu.be/mIeSdgpS82o
+ Day-3 https://youtu.be/v6LW2-49IDw
  For Queries,  Fee Related Only Whatsapp Message 
 SHUBHAM 7337313415
+
 
 

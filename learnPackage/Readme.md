@@ -1,0 +1,1 @@
+# Details description of the app
