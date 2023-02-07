@@ -127,11 +127,30 @@ react > Main package of the application
 react-dom > Help to render content on the browser
 react-script > Help to compile the application
 
+function add(a,b){
+    return a,b
+}
+
+add(5,4)
+4
+add(4,5)
+5
+
+function add(a,b){
+    let out = [a,b]
+    return out
+}
+
+add(2,4)
+
+
 //video
 React JS @ 8:00 PM (IST) by Mr. Aakash
  Day-1 https://youtu.be/yz742iqKcf4
  Day-2 https://youtu.be/mIeSdgpS82o
  Day-3 https://youtu.be/v6LW2-49IDw
+ Day-4 https://youtu.be/QI4GnGRcl3U
+
  For Queries,  Fee Related Only Whatsapp Message 
 SHUBHAM 7337313415
 
