@@ -5,6 +5,10 @@ https://github.com/ (signup)
 https://github.com/Aakashdeveloper (follow)
 
 Extensions
+> vscode-icons
+> Code Spell Checker
+> githistory
+> gitlens
 
 
 html
@@ -144,12 +148,28 @@ function add(a,b){
 add(2,4)
 
 
+
+HTML > Main Tag of the page
+HEAD > All the script, css
+Body > All the content visible to user
+
+Block Level
+> Those who always start from new line
+> Take whole width of screen
+Inline 
+> Start from the available space
+> Only take the space required for text
+
+
 //video
 React JS @ 8:00 PM (IST) by Mr. Aakash
  Day-1 https://youtu.be/yz742iqKcf4
  Day-2 https://youtu.be/mIeSdgpS82o
  Day-3 https://youtu.be/v6LW2-49IDw
  Day-4 https://youtu.be/QI4GnGRcl3U
+ Day-5 https://youtu.be/32CbGRMKa
+
+ 
 
  For Queries,  Fee Related Only Whatsapp Message 
 SHUBHAM 7337313415
