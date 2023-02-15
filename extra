@@ -168,6 +168,60 @@ Hobbies
 Map
 Social link in footer
 
+css
+> Inline
+> StyleTag
+> Stylesheet
+
+
+Inline > StyleTag > Stylesheet
+
+
+inline{
+    color:red;
+    height:50px;
+    background:green
+}
+
+styleTag{
+     color:orange;
+     width:90px;
+     font-size:30px;
+}
+
+Stylesheet{
+    font-size:35px;
+    height:70px;
+    z-index:100
+}
+
+
+{
+   color:red;
+   height:50px;
+   background:green;
+   width:90px;
+   font-size:30px;
+   z-index:100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //video
 React JS @ 8:00 PM (IST) by Mr. Aakash
@@ -177,41 +231,3 @@ React JS @ 8:00 PM (IST) by Mr. Aakash
  Day-4 https://youtu.be/QI4GnGRcl3U
  Day-5 https://youtu.be/32CbGRMKa
  Day-6 https://youtu.be/XtF6VRppOOQ
-
-
- https://docs.google.com/forms/d/e/1FAIpQLSfc-3zgJ1YsxQ24ApfJzl6QPATEFwf_yYsETQW2bBgSi2mnFg/viewform
- 
-
- For Queries,  Fee Related Only Whatsapp Message 
-SHUBHAM 7337313415
-
-
-React JS  By Mr. Aakash @ 8:00 PM
-
-Fee:- 8,000/- (including GST) with videos
-Completely with Videos Course !! 
-
-Note: Videos will be shared on daily basis & after completion of course additional 6 months valid for videos available!
-
-You can follow either of the below payment mode
-
-Payment Link: https://rzp.io/l/Naresh-IT
-
-Payment Details 👇
-Bank Details :- 
-Name: Naresh I Technologies
-A/C No. 50200022639833     
-Bank: HDFC
-A/C Type: Current Account
-IFSC Code: HDFC0001627
-MICR Code: 500240035
-Branch Code: 001627
-Branch:  Ameerpet
-
-Note: If you want to use Phonepe or Google Pay then follow  below steps
-You can find the option Bank Transfer in Phonepe and Google pay. There you can enter our bank account number and you can transfer the amount. 
-
-Please mention your Name on the receipt and send a email once the payment is done send the payment screenshot  to support@nareshit.com and also to ADMIN SHUBHAM 7337313415
-
-
-
