@@ -205,6 +205,16 @@ Stylesheet{
    z-index:100;
 }
 
+///// identifier
+Id 
+> unique identifier
+> target using #
+ClassName 
+> To target group of elements
+> Target using .
+Tagname
+
+id > ClassName
 
 
 

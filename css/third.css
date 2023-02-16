@@ -1,0 +1,23 @@
+p{
+
+}
+#mainHeading{
+    text-align: center;
+    color:orange
+}
+.card{
+    height:400px;
+    width:20%;
+    background-color:skyblue;
+    float:left;
+    margin:2%;
+    overflow: scroll;
+}
+.card > img{
+    width:100%;
+    height:200px
+}
+
+.card >h2{
+    text-align: center;
+}
