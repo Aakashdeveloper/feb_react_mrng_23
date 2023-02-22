@@ -1,24 +1,98 @@
 body{
     margin:auto;
 }
+a{
+    text-decoration: none;
+}
+/* header css*/
 header{
  height:60px;
  background-color: #3b2632;
  /* border:5px solid red */
 }
+
+#brand{
+    color:white;
+    font-size: 30px;
+    float: left;
+    margin-left:4%;
+    margin-top: 1%;
+}
+#social{
+    float: right;
+    margin-right: 2%;
+    margin-top: 4px;
+}
+
+.socialIcon{
+    height:50px;
+    width:50px;
+}
+
+/* Search Css */
 #search{
  height:400px;
  width:100%;
- background-color: #98ece1;
  background-image: url("images/foodWallpaper.png");
  background-repeat: no-repeat;
  background-size: cover;
 /* background-size: 100% 400px; */
 }
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    margin-left: 43%;
+    margin-top: 1%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#logo> span{
+    margin-left: 24%;
+    margin-top: 11%;
+    position: absolute;
+    font-size: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#heading{
+    margin-left: 30%;
+    margin-top: 12%;
+    position: absolute;
+    color: white;
+    font-size: 55px;
+}
+
+#dropdown{
+    margin-left: 27%;
+    margin-top: 19%;
+    position: absolute;
+    /* border:2px solid white; */
+    height:60px;
+    width:50%
+}
+
+select{
+    width:44%;
+    height:60px;
+    font-size: 20px;
+}
+.restSelect{
+    width:55%;
+}
+
+/* QuickSearch Css */
 #quickSearch{
     height:600px;
     background-color: rgb(234, 173, 216);
+    width:80%;
+    margin-left: 10%;
+    margin-top: 1%;
 }
+
+/* Footer Css */
 footer{
     height:80px;
     /* border:5px double purple; */
