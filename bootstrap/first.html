@@ -3,16 +3,128 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="first.css"/>
     </head>
     <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#devNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Developer Funnel</a>
+                </div>
+                <div class="collapse navbar-collapse" id="devNav">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-user"></span> SignUp
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-log-in"></span> LogIn
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <div class="container">
             <div class="jumbotron">
                 <h1>About Bootstrap</h1>
                 <p>
                     111 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                 </p>
+                <button class="btn btn-success">Click</button>
+                <button class="btn btn-info">Click</button>
+                <button class="btn btn-warning">Click</button>
+                <button class="btn btn-danger btn-purple">Click</button>
+                <button class="btn btn-primary">Click</button>
+                <button class="btn btn-danger" data-toggle="modal" data-target="#devModal">Click</button>
+            </div>
+
+            <div id="devModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close"
+                            data-dismiss="modal">&times</button>
+                            <h4 class="modal-title">Dev Modal Header</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                222 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr/>
+                <span class="glyphicon glyphicon-trash"></span>
+                <span class="glyphicon glyphicon-ok okicon"></span>
+                <span class="glyphicon glyphicon-remove removeicon"></span>
+            <hr/>
+            <div class="row">
+                <div id="first" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+                <div id="second" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+                <div id="third" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+                <div id="fourth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+                <div id="fifth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+                <div id="sixth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+                <div id="seventh" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
             </div>
             
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2>Students</h2>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Roll No</th>
+                                <th>Name</th>
+                                <th>City</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Nikita</td>
+                                <td>Delhi</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Aman</td>
+                                <td>Paris</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Shruti</td>
+                                <td>Venice</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+
         </div>
         
     </body>

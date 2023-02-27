@@ -1,0 +1,42 @@
+.btn-purple{
+    background-color: purple !important;
+}
+
+#first{
+    height:200px;
+    background-color: lightcoral;
+}
+#second{
+    height:200px;
+    background-color: rgb(153, 170, 248);
+}
+#third{
+    height:200px;
+    background-color: rgb(161, 240, 181);
+}
+#fourth{
+    height:200px;
+    background-color: rgb(221, 215, 161);
+}
+#fifth{
+    height:200px;
+    background-color: rgb(116, 63, 63);
+}
+#sixth{
+    height:200px;
+    background-color: rgb(143, 98, 128);
+}
+#seventh{
+    height:200px;
+    background-color: rgb(243, 109, 91);
+}
+
+.okicon{
+    font-size: 20px;
+    color:green;
+}
+
+.removeicon{
+    font-size: 20px;
+    color:red;
+}
