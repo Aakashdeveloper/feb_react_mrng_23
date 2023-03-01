@@ -230,11 +230,6 @@ sm > = 768px
 md > 992px
 lg > 1200px
 
-
-
-
-
-
 //video
 React JS @ 8:00 PM (IST) by Mr. Aakash
  Day-1 https://youtu.be/yz742iqKcf4
@@ -243,3 +238,34 @@ React JS @ 8:00 PM (IST) by Mr. Aakash
  Day-4 https://youtu.be/QI4GnGRcl3U
  Day-5 https://youtu.be/32CbGRMKa
  Day-6 https://youtu.be/XtF6VRppOOQ
+
+
+ ///////////////////
+ Class 
+ > Logical Component
+ > Api, Logics, Display
+ > We can maintain the state
+
+ functional 
+ > Dumb Component
+ > Mainly Use for Display
+ > We cannot maintain the state
+
+
+ HooksComponent
+
+
+/////////////////
+state
+> Act like a local variable
+> Every component can have its own state
+> We can update the value of state
+> Whenever state update component will rerender
+
+Props
+> Help to transfer data between 2 nested components
+> we cannot update the value of props
+
+> Parent > Child (Props)
+> Child > Parent (Props with callback)
+
