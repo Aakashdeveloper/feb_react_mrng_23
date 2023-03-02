@@ -269,3 +269,5 @@ Props
 > Parent > Child (Props)
 > Child > Parent (Props with callback)
 
+Map
+filter

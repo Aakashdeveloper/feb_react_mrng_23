@@ -7,8 +7,8 @@ const App = () => {
     return(
         <>
             <Header/>
-            <ProductDisplay/>
-            <Footer/>
+            <ProductDisplay />
+            <Footer year="2023" month="March"/>
         </>
     )
 }
