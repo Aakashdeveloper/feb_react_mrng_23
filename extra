@@ -261,6 +261,7 @@ state
 > Every component can have its own state
 > We can update the value of state
 > Whenever state update component will rerender
+> Any Data interaction will happen through state
 
 Props
 > Help to transfer data between 2 nested components
@@ -269,5 +270,44 @@ Props
 > Parent > Child (Props)
 > Child > Parent (Props with callback)
 
+//parent
+function add(a,b){
+    return a+b
+}
+
+// child 
+add(3,6)
+
 Map
 filter
+
+var a = [5,7,1,4,2];
+a.map((data) => {return data*2})
+ [10, 14, 2, 8, 4]
+
+var b = [5,23,12,41,8,20]
+b.filter((data) => { return data>20})
+[23, 41]
+
+
+var b = [5,23,12,41,8,20]
+b.map((data) => { return data>20})
+[false, true, false, true, false, false];
+
+
+var a = [0,1,2,3]
+a.filter((data) => {return data*2})
+[1, 2, 3]
+
+
+var b = [5,23,12,41,8,20]
+b.indexOf(23)
+1
+b.indexOf(11)
+-1
+b.indexOf(8)
+4
+b.indexOf(5)
+0
+b.indexOf(3)
+-1

@@ -5,7 +5,7 @@ class Header extends Component {
 
     constructor(props){
         super(props)
-        console.log(">>>>inside constructor")
+        //console.log(">>>>inside constructor")
         this.state={
             title:'React App',
             keyword:'User Input Here'
@@ -13,12 +13,14 @@ class Header extends Component {
     }
 
     handleChange=(event)=>{
-        console.log(event.target.value)
-        this.setState({keyword:event.target.value})
+        //console.log(event.target.value)
+        this.setState({keyword:event.target.value ? event.target.value:'User Input Here'})
+        // passing to parent
+        this.props.userInput(event.target.value)
     }
 
     render(){
-        console.log(">>>>inside render")
+       // console.log(">>>>inside render")
         return(
             <>
                 <header>
