@@ -320,3 +320,31 @@ Routing 6
 npm i react-router-dom
 
 npm i react-router-dom@5.3.0
+
+////////
+Params
+> What you pass after /
+> if you want to pass than decleare it
+> should be use for 1 or 2 values only
+
+QueryParams
+> What you pass after ?
+> no need ro decleare
+> Can be use for multiple values
+
+
+// default props for routing5
+> match >> Params
+> location >> QueryParams
+> history >> Redirection
+
+?page=2
+PostDetails.js:5 2
+PostDetails.js:4 ?page=3&chapter=2
+PostDetails.js:5 3&chapter
+var a = "?page=3&chapter=2"
+undefined
+a.split('&')
+(2) ['?page=3', 'chapter=2']
+a.split('&')[1].split('=')[1]
+'2'
