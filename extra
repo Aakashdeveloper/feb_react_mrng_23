@@ -386,3 +386,15 @@ a.split('&')[1].split('=')[1]
 /******UserInfo*****/
 (GET) => http://3.17.216.66:5000/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
+
+
+//////////
+//es5 
+var a = 10
+var b = "My age is "+a
+"My age is 10"
+
+//es6
+var a = 10
+var b = `My age is ${a}`
+"My age is 10"
