@@ -1,7 +1,19 @@
 import React,{Component} from 'react';
 import './quickSearch.css';
+import QuickDisplay  from './QuickDisplay';
+
+const base_url = "http://3.17.216.66:4000";
 
 class QuickSearch extends Component {
+
+    constructor(){
+        super()
+
+        this.state={
+            mealType:''
+        }
+    }
+
     render(){
         return(
             <>
@@ -13,88 +25,20 @@ class QuickSearch extends Component {
                     Find Restaurant By MealType
                 </span>
                 <div>
-                    <div className="tileContainer">
-                        <div className="tileComponent1">
-                            <img src="https://i.ibb.co/8rPxkWP/lunch.jpg" alt="dinner"/>
-                        </div>
-                        <div className="tileComponent2">
-                            <div className="componentHeading1">
-                                <a href="">Lunch</a>
-                            </div>
-                            <div className="componentHeading2">
-                                Start your day with exclusive breakfast options
-                            </div>
-                        </div>
-                    </div>
-                    <div className="tileContainer">
-                        <div className="tileComponent1">
-                            <img src="/images/snacks.png" alt="dinner"/>
-                        </div>
-                        <div className="tileComponent2">
-                            <div className="componentHeading1">
-                                <a href="">Lunch</a>
-                            </div>
-                            <div className="componentHeading2">
-                                Start your day with exclusive breakfast options
-                            </div>
-                        </div>
-                    </div>
-                    <div className="tileContainer">
-                        <div className="tileComponent1">
-                            <img src="https://i.ibb.co/8rPxkWP/lunch.jpg" alt="dinner"/>
-                        </div>
-                        <div className="tileComponent2">
-                            <div className="componentHeading1">
-                                <a href="">Lunch</a>
-                            </div>
-                            <div className="componentHeading2">
-                                Start your day with exclusive breakfast options
-                            </div>
-                        </div>
-                    </div>
-                    <div className="tileContainer">
-                        <div className="tileComponent1">
-                            <img src="https://i.ibb.co/FVhSTWK/breakfast.jpg" alt="dinner"/>
-                        </div>
-                        <div className="tileComponent2">
-                            <div className="componentHeading1">
-                                <a href="">Lunch</a>
-                            </div>
-                            <div className="componentHeading2">
-                                Start your day with exclusive breakfast options
-                            </div>
-                        </div>
-                    </div>
-                    <div className="tileContainer">
-                        <div className="tileComponent1">
-                            <img src="https://i.ibb.co/YR0S6fV/drinks.jpg" alt="dinner"/>
-                        </div>
-                        <div className="tileComponent2">
-                            <div className="componentHeading1">
-                                <a href="">Lunch</a>
-                            </div>
-                            <div className="componentHeading2">
-                                Start your day with exclusive breakfast options
-                            </div>
-                        </div>
-                    </div>
-                    <div className="tileContainer">
-                        <div className="tileComponent1">
-                            <img src="https://i.ibb.co/wchCHfb/snacks.jpg" alt="dinner"/>
-                        </div>
-                        <div className="tileComponent2">
-                            <div className="componentHeading1">
-                                <a href="">Lunch</a>
-                            </div>
-                            <div className="componentHeading2">
-                                Start your day with exclusive breakfast options
-                            </div>
-                        </div>
-                    </div>
+                    <QuickDisplay mealData={this.state.mealType}/>
                 </div>
             </div>
             </>
         )
+    }
+
+    // api call on pageload 
+    componentDidMount(){
+        fetch(`${base_url}/quicksearch`, {method:'GET'})
+        .then((res) => res.json())
+        .then((data) => {
+            this.setState({mealType:data})
+        })
     }
 }
 
