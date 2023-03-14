@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import axios from 'axios';
 import './listing.css';
+import ListingDisplay from './listingDisplay'
 
 const base_url = "http://3.17.216.66:4000"
 
@@ -19,7 +20,9 @@ class Listing extends Component{
             <div className="row">
                 <div id="mainListing">
                     <div id="filter"></div>
+                    <ListingDisplay listData={this.state.restaurantList}/>
                 </div>
+
             </div>
            </>
         )
