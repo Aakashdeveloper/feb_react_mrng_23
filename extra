@@ -398,3 +398,7 @@ var b = "My age is "+a
 var a = 10
 var b = `My age is ${a}`
 "My age is 10"
+
+if(a.indexOf(4)>-1){
+    a.splice(a.indexOf(4),1)
+}
