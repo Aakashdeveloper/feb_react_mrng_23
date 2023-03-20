@@ -402,3 +402,10 @@ var b = `My age is ${a}`
 if(a.indexOf(4)>-1){
     a.splice(a.indexOf(4),1)
 }
+
+////////
+> open cmd as admin
+npm i -g json-server
+
+////////
+json-server --watch order.json --port 8300
