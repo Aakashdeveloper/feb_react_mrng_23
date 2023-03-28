@@ -1,19 +1,37 @@
-import React from 'react';
+import React,{Component} from 'react';
+import Display from './UserDisplay';
+import axios from 'axios';
 
-const Home = () => {
-    return(
-        <div className="panel panel-primary">
-            <div className="panel-heading">
-                Home Page
-            </div>
-            <div className="panel-body">
-                <h1>Home Page</h1>
-                <p>
-                    Home Page is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                </p>
-            </div>
-        </div>
-    )
+const url = "http://3.17.216.66:5000/api/auth/users"
+
+class UserList extends Component {
+
+    constructor(){
+        super()
+
+        this.state={
+            users:''
+        }
+    }
+
+    render(){
+        if(sessionStorage.getItem('ltk') === null){
+            this.props.history.push('/')
+        }
+        if(sessionStorage.getItem('ltk') !== null && sessionStorage.getItem('rtk') !== 'Admin'){
+            this.props.history.push('/profile')
+        }
+        return(
+            <>
+                <Display userData={this.state.users}/>
+            </>
+        )
+    }
+
+    componentDidMount(){
+        axios.get(url).then((res) => {this.setState({users:res.data})})
+    }
 }
+    
 
-export default Home;
+export default UserList;

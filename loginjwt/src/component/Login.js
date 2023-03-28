@@ -7,8 +7,8 @@ class Login extends Component {
         super(props)
 
         this.state={
-            email:'yash@gmail.com',
-            password:'',
+            email:'rohini@gmail.com',
+            password:'12345678',
             message:''
         }
     }
@@ -47,8 +47,8 @@ class Login extends Component {
                             <h3>Login</h3>
                         </div>
                         <div className='panel-body'>
+                            <h2 style={{color:'red'}}>{this.state.message}</h2> 
                             <div className='row'>
-                                <h2 style={{color:'red'}}>{this.state.message}</h2>
                                 <div className='form-group col-md-6'>
                                     <label>Email</label>
                                     <input className='form-control' name="email" value={this.state.email}
@@ -59,10 +59,10 @@ class Login extends Component {
                                     <input className='form-control' name="password" value={this.state.password}
                                     onChange={this.handleChange}/>
                                 </div>
-                                <button className="btn btn-info" onClick={this.register}>
-                                    Login
-                                </button>
                             </div>
+                            <button className="btn btn-info" onClick={this.register}>
+                                    Login
+                            </button>
                         </div>
                     </div>
                 </div>
