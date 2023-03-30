@@ -1,21 +1,19 @@
 import React,{Component} from 'react';
 import './placeOrder.css';
-import Header from '../Header';
 
 const url = "http://3.17.216.66:4000/menuItem"
 const purl = "http://localhost:8300/orders"
 class PlaceOrder extends Component {
     constructor(props){
         super(props)
-        let sessionData = sessionStorage.getItem('userInfo')
-        let data = JSON.parse(sessionData)
+
         this.state={
             id:Math.floor(Math.random()*10000),
             hotel_name:this.props.match.params.restName,
-            name:data.name,
-            email:data.email,
+            name:'Yash',
+            email:'yash@gmail.com',
             cost:0,
-            phone:data.phone,
+            phone:987654321,
             address:'U Block Hno 43 Gurgaon',
             menuItem:''
         }
@@ -59,7 +57,6 @@ class PlaceOrder extends Component {
     render(){
         return(
             <>
-                <Header/>
                 <div className="container">
                     <div className="panel panel-primary">
                         <div className='panel-heading'>
@@ -91,8 +88,6 @@ class PlaceOrder extends Component {
                                     onChange={this.handleChange}/>
                                 </div>
                                 {this.renderItem(this.state.menuItem)}
-                                
-                            </div>
                                 <div className='row'>
                                     <div className='col-md-12'>
                                         <h2>Total Price is Rs.{this.state.cost}</h2>
@@ -101,6 +96,7 @@ class PlaceOrder extends Component {
                                 <button className="btn btn-success" onClick={this.placeOrder}>
                                     Checkout
                                 </button>
+                            </div>
                         </div>
                     </div>
                 </div>

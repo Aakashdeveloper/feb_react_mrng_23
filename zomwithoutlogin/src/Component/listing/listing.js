@@ -4,7 +4,6 @@ import './listing.css';
 import ListingDisplay from './listingDisplay';
 import CuisineFilter from '../filters/cuisineFilter';
 import CostFilter from '../filters/costFilter';
-import Header from '../Header';
 
 const base_url = "http://3.17.216.66:4000"
 
@@ -25,7 +24,6 @@ class Listing extends Component{
     render(){
         return(
            <>
-           <Header/>
             <div className="row">
                 <div id="mainListing">
                     <div id="filter">

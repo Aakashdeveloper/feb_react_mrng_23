@@ -1,0 +1,48 @@
+body{
+    margin:auto;
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color: rgb(251, 223, 227);
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(243, 188, 174);
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(237, 174, 243);
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(243, 238, 174);
+    }
+    .tileContainer{
+        width:45%
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(174, 184, 243);
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(174, 243, 177);
+    }
+    .tileContainer{
+        width:100%
+    }
+}

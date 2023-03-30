@@ -1,0 +1,57 @@
+#quickSearch{
+    width:80%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+#QuickSearchHeader{
+    font-size: 30px;
+    color:#3b2632;
+    display: block;
+    margin-left:2%;
+
+}
+#QuickSubHeader{
+    font-size: 20px;
+    color:gray;
+    line-height: 2;
+    margin-left:2%;
+
+}
+.tileContainer{
+    height:180px;
+    width: 30% ;
+    /* border:2px solid black; */
+    margin-left:2%;
+    margin-top: 3%;
+    display: inline-block;
+    box-shadow:10px 15px 10px #3b2632
+}
+
+.tileComponent1{
+    width:45%;
+    float:left;
+    height: 100%;
+}
+
+.tileComponent1 > img {
+    width:100%;
+    height:100%
+}
+
+.tileComponent2{
+    width:52%;
+    float:left;
+    margin-top: 15%;
+    margin-left:2%
+}
+
+.componentHeading1{
+    font-size: 25px;
+    color:#3b2632;
+}
+
+.componentHeading2{
+    font-size: 20px;
+    color:gray;
+}

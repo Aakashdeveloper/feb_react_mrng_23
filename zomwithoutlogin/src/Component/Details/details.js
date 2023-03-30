@@ -5,7 +5,6 @@ import 'react-tabs/style/react-tabs.css';
 import axios from 'axios';
 import {Link} from 'react-router-dom';
 import MenuDisplay from './menuDetails';
-import Header from '../Header';
 
 const base_url = "http://3.17.216.66:4000";
 
@@ -36,7 +35,6 @@ class Details extends Component{
         let {details} = this.state;
         return(
             <>
-                <Header/>
                 <div className='main'>
                     <div className='tileImage'>
                         <div className='imageClass'>
