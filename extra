@@ -19,9 +19,9 @@ Npm
 React = 3
 Mock API
 json-server
-/////////////////
-
+React_hooks -1
 React-JWT(Login Logout)-2
+/////////////////
 Deployment
 -> MERN
 -> ReactPy
@@ -31,7 +31,6 @@ Deployment
 -> Nginx
 -> Jenkins
 Github
-React_hooks -1
 HOC
 Basic React Native- 1
 React-GraphQL - 1 
@@ -411,3 +410,10 @@ npm i -g json-server
 
 ////////
 json-server --watch order.json --port 8300
+
+
+https://github.com/Aakashdeveloper/GoogleLoginReact
+download
+npm i
+add secerts form google cloud
+npm start
