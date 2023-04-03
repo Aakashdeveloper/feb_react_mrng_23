@@ -21,11 +21,11 @@ Mock API
 json-server
 React_hooks -1
 React-JWT(Login Logout)-2
-/////////////////
 Deployment
 -> MERN
 -> ReactPy
 -> Netlify
+/////////////////
 -> Aws
 -> Docker
 -> Nginx
