@@ -25,20 +25,25 @@ Deployment
 -> MERN
 -> ReactPy
 -> Netlify
-/////////////////
--> Aws
--> Docker
 -> Nginx
 -> Jenkins
+-> Aws
+-> Docker
+/////////////////
 Github
-HOC
+
 Basic React Native- 1
+HOC
 React-GraphQL - 1 
+
+
 React-Redux - 1
 React-Redux - 1
 React-PWA - 1
-React-Query - 1
+React-map -1
 Testing Jest Enzime
+
+React-Query - 1
 ///////Walkthrough///////
 React-Saga -1
 React-with-typescript-1
