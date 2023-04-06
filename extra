@@ -422,3 +422,7 @@ download
 npm i
 add secerts form google cloud
 npm start
+
+//////
+Step to generate react native app
+> npx create-react-native-app appname
