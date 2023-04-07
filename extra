@@ -29,14 +29,11 @@ Deployment
 -> Jenkins
 -> Aws
 -> Docker
-/////////////////
-Github
-
 Basic React Native- 1
 HOC
 React-GraphQL - 1 
-
-
+/////////////////
+Github
 React-Redux - 1
 React-Redux - 1
 React-PWA - 1
@@ -426,3 +423,13 @@ npm start
 //////
 Step to generate react native app
 > npx create-react-native-app appname
+
+
+https://www.codingame.com/playgrounds/8595/reactjs-higher-order-components-tutorial
+
+
+it will take argument as 
+data and argument as 
+return component with data
+
+HOC take argument as argument as  and return component
