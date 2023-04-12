@@ -18,6 +18,7 @@ const Header = () => {
                     <li> <Link to="/">Home</Link></li>
                     <li> <Link to="/post">Post</Link></li>
                     <li> <Link to="/profile">Profile</Link></li>
+                    <li> <Link to="/map">Map</Link></li>
                 </ul>
                 <ul className="nav navbar-nav navbar-right">
                     <li><Link to="/"><span className="glyphicon glyphicon-user"></span> Sign Up</Link></li>
