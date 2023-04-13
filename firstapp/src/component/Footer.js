@@ -5,7 +5,7 @@ const Footer = (props) => {
         <>
             <hr/>
             <center>
-                <h3>Developer Funnel {props.year} {props.month}</h3>
+                <h3>Developer Funnels {props.year} {props.month}</h3>
             </center>
         </>
     )
