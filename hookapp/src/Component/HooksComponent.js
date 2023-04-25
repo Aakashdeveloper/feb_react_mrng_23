@@ -14,6 +14,7 @@ function HooksComponent(){
 
     const updateCount=() =>{
         setCount(count+1)
+        setCount(count+1)
     }
     
     const updateRecord=() =>{

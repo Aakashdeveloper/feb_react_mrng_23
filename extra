@@ -16,7 +16,7 @@ css
 bootstrap 3,4,5
 Basic Javacript during react (if else, function,loop, array, object)
 Npm
-React = 3
+React = 4
 Mock API
 json-server
 React_hooks -1
@@ -29,6 +29,8 @@ Deployment
 -> Jenkins
 -> Aws
 -> Docker
+-> Github Action
+
 Basic React Native- 1
 HOC
 React-GraphQL - 1 
@@ -36,7 +38,6 @@ React-Redux - 1
 React-Redux With Hooks - 1
 React-PWA - 1
 React-map -1
-/////////////////
 Testing Jest Enzime
 Github
 ///////Walkthrough///////
@@ -435,3 +436,10 @@ return component with data
 HOC take argument as argument as  and return component
 
 https://github.com/Aakashdeveloper/react-interview-questions
+
+
+
+
+npm i -g json-server
+
+json-server --watch db.json --port 3321
